@@ -1,0 +1,93 @@
+
+<html>
+<head>
+    <title>Tela de Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container label,
+        .container input[type="text"],
+        .container input[type="password"] {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+
+<br>
+<br>
+<br>
+
+
+    <div class="container">
+        <h2>Tela de Cadastro</h2>
+        <form method="POST" action="cadastro.php">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+           
+            <label for="cpf">cpf:</label>
+            <input type="text" name="cpf" id="cpf" required>
+           
+            
+           
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+           
+            <label for="confirmar-senha">Repita a sua senha:</label>
+            <input type="password" name="confirmar-senha" id="confirmar-senha" required>
+           
+            <input type="submit" value="Cadastrar">
+
+            <nav >
+         
+        </form>
+
+
+
+
+
+    </div>
+</body>
+</html>s

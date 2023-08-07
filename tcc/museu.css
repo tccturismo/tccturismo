@@ -1,0 +1,8 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    widows: 100vw;
+    background: linear-gradient(72deg, #8b8a8a 35%, #ffffff, #919191 99% ); /* faz background */
+}
